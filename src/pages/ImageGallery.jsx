@@ -45,12 +45,9 @@ function ImageGallery() {
   ];
 
   return (
-    <div className="bg-gray-800 min-h-screen text-white">
-      {/* <h1 className="text-sky-400 text-3xl underline text-center font-semibold my-4">
-        React Image Gallery
-      </h1> */}
+    <div className="bg-gray-800 min-h-screen text-gray-800">
 
-      <div className="bg-gray-900 mt-2 p-4 flex flex-wrap justify-center">
+      <div className="bg-gray-800 p-4 flex flex-wrap justify-center">
         {users.map((data, index) => (
           <div
             key={index}

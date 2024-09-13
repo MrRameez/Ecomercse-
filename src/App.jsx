@@ -4,16 +4,16 @@ import Home from './pages/Home';
 import Header from './Components/Header';
 import ImageGallery from './pages/ImageGallery'; // Ensure spelling consistency
 import NotFound from './pages/NotFound';
-import SignUp from './pages/SignUp';
-import LoginUp from './pages/LoginUp';
 import Weather from './pages/Weather';
 import Box from './pages/Box';
+import SignUp from './pages/Auth/SignUp';
+import LoginUp from './pages/Auth/LoginUp';
 
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Box" element={<Box/>} /> 

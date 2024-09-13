@@ -1,8 +1,8 @@
-function Button({content,bgcolor,fontcolor,onclick,childButton}){
+function Button({content,bgcolor,fontcolor,onClick}){
     return(
         <button 
         className='bg-slate-200 bord rounded-lg ml-5 my-2'
-        onClick={onclick}
+        onClick={onClick}
         style={{
             backgroundColor:bgcolor?bgcolor:"gray",
             color:fontcolor?fontcolor:"white",
