@@ -50,10 +50,11 @@ function Header() {
         <div className="hidden md:flex items-center space-x-6">
           <Link to="/" className="hover:text-blue-400">Home</Link>
           <Link to="/Weather" className="hover:text-blue-400">Weather</Link>
-          <Link to="/ImageGallery" className="hover:text-blue-400">Gallery</Link>
+          <Link to="/BuyProduct" className="hover:text-blue-400">Buy Product</Link>
           <Link to="/Box" className="hover:text-blue-400">Customize Box</Link>
           {/* <Link to="/SignUp" className="hover:text-gray-400">Signup</Link> */}
           {/* <Link to="/LoginUp" className="hover:text-gray-400">Loginup</Link> */}
+
           
           {user?.isLogin ? (
              <div className="flex items-center">
@@ -80,7 +81,7 @@ function Header() {
         <div className={`md:hidden ${theme === 'light' ? 'bg-gray-300' : 'bg-gray-800'} text-${theme === 'light' ? 'black' : 'white'}`}>
           <Link to="/" className="block px-4 py-2 hover:bg-blue-700">Home</Link>
           <Link to="/Weather" className="block px-4 py-2 hover:bg-blue-700">Weather</Link>
-          <Link to="/ImageGallery" className="block px-4 py-2 hover:bg-blue-700">Gallery</Link>
+          <Link to="/BuyProduct" className="hover:text-blue-400">Buy Product</Link>
           <Link to="/Box" className="block px-4 py-2 hover:bg-blue-700">Customize Box</Link>
 
           {user?.isLogin ? (
@@ -93,7 +94,7 @@ function Header() {
            )}
           <Button
             content={theme === 'dark' ? 'Theme' : 'Theme'}
-            onclick={toggleTheme} 
+            onClick={toggleTheme} 
           />
           <button
             onClick={goToHomePage}
