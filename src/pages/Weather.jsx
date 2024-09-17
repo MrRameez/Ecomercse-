@@ -63,7 +63,7 @@ function Weather() {
   const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
   return (
-    <div className="min-h-screen flex flex-col items-center bg-[#1e1e2d] text-white py-10 px-4">
+    <div className="min-h-screen flex flex-col items-center bg-gray-700 text-white py-10 px-4">
       <h1 className="text-4xl font-bold mb-8">Weather App</h1>
 
       <div className="flex mb-6">

@@ -6,17 +6,14 @@ import { getStorage } from "firebase/storage";
 
 
 
-
-
 const firebaseConfig = {
-  apiKey: "AIzaSyD5RnRlpe5ytjZ9jeAP6FLedkU3YwMt5QQ",
-  authDomain: "e-commerce-d7527.firebaseapp.com",
-  projectId: "e-commerce-d7527",
-  storageBucket: "e-commerce-d7527.appspot.com",
-  messagingSenderId: "618079184863",
-  appId: "1:618079184863:web:2c1acf9d5762d77f93466a"
+  apiKey: "AIzaSyCvK3eXpHbvhttWIhVuvi8_PkZra88cuwc",
+  authDomain: "ecomerse-642ae.firebaseapp.com",
+  projectId: "ecomerse-642ae",
+  storageBucket: "ecomerse-642ae.appspot.com",
+  messagingSenderId: "1078438368078",
+  appId: "1:1078438368078:web:9616aab88dd0ef4d87c41f"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);

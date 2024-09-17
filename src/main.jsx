@@ -8,10 +8,10 @@ import UserContaxtProvider from './Contaxt/UserContaxt.jsx';
 
 createRoot(document.getElementById('root')).render(
   <UserContaxtProvider>
-  <StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </StrictMode>
+    <StrictMode>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </StrictMode>
   </UserContaxtProvider>
 );
