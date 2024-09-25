@@ -10,6 +10,7 @@ import LoginUp from './pages/Auth/LoginUp';
 import BuyProduct from './pages/BuyProduct';
 import Product from './pages/Product';
 import Profile from './pages/Profile';
+import LearnMore from './pages/LearnMore';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/LearnMore" element={<LearnMore />} />
         <Route path="/Box" element={<Box/>} />
         <Route path="/Profile" element={ <Profile/>} />
         <Route path="/BuyProduct" element={ <BuyProduct/>} />
