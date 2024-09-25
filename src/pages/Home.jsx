@@ -20,7 +20,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center space-x-6">
             <Link to="/BuyProduct" className="transition-transform transform hover:scale-105 px-10 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg">
-              Get Started
+              Our Products
             </Link>
             <Link to="/LearnMore" className="transition-transform transform hover:scale-105 px-10 py-4 bg-transparent border-2 border-blue-600 hover:border-blue-700 text-blue-600 hover:text-blue-700 font-semibold rounded-full shadow-lg">
               Learn More
